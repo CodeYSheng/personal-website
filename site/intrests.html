@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My stuff</title>
+	<style type = "text/css">
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: arial;
+		background-color: #ebebeb
+	}
+
+	#header {
+		background-color: deepskyblue;
+		height: 100px;
+		width: 100%;
+	}
+
+	.container {
+		width: 960px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	#logoArea {
+		width: 300px;
+		height: 100px;
+		float: left;
+	} 
+
+	#navArea {
+		height: 100px;
+		float: right; 
+	}
+
+	#nav {
+		list-style: none;
+		margin-top: 30px;
+	}
+
+	#nav a {
+		color: white;
+		text-decoration: none;
+	}
+
+	#nav li {
+		float: left;
+		margin-left: 30px;
+		background-color: dodgerblue;
+		padding: 8px;
+		border: 1px solid midnightblue;
+		border-radius: 5px;
+	}
+
+	#nav li:hover {
+		background-color: gray;
+	}
+
+	.page {
+		background-color: white;
+		padding: 20px;
+		padding-bottom: 1px;
+	}
+
+	#footer {
+		background-color: deepskyblue;
+		height: 40px;
+		width: 100%;
+		color: white;
+		padding-top: 20px;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div id = "header">
+		<div class = "container">
+			<div id = "logoArea"><img src="Logo.png"></div>
+			<div id = "navArea">
+				<ul id = "nav">
+					<a href = "index.html"><li>Home</li></a>
+					<a href = "movies.html"><li>Movies</li></a>
+					<a href = "tv-shows.html"><li>TV-Shows</li></a>
+					<a href = "sports.html"><li>Sports</li></a>
+					<a href = "intrests.html"><li>Intrests</li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id = "mainArea">
+		<div class = "container page">
+			<h3>Astronomy</h3>
+			<p>I'm not sure what intrigues me about the vast emptiness of space, but I've devoted a sufficient amount of time to research it. The most fascinating celestial body is the quasar which is a black hole that becomes the brightest and hottest thing in the universe. Its an object that can become polar opposites of itself.</p>
+			<img src= "quasar.jpg">
+			<h3>Art</h3>
+			<p>It's enjoyable, but I've slowly been drifting away from it. Here's a cool-looking fire that I didn't draw.</p>
+			<img src= "Fire.jpg">
+		</div>
+	</div>
+	<div id = "footer">
+		<div class = "container">Copyright Notice</div>
+	</div>
+</body>
+</html>
